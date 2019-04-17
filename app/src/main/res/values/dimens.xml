@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--2 nth power -->
+    <dimen name="d1">2dp</dimen>
+    <dimen name="d2">4dp</dimen>
+    <dimen name="d3">8dp</dimen>
+    <dimen name="d4">16dp</dimen>
+    <dimen name="d5">32dp</dimen>
+    <dimen name="d6">64dp</dimen>
+    <dimen name="d7">128dp</dimen>
+    <dimen name="dp_04">0.4dp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+    <dimen name="sp_18">18sp</dimen>
+
+    <dimen name="list_item_hight">55dp</dimen>
+    <dimen name="line_hight">1dp</dimen>
+    <dimen name="chat_icon_hight">50dp</dimen>
+    <dimen name="divider_hight">0.6dp</dimen>
+    <dimen name="setting_item_height">48dp</dimen>
+    <dimen name="indicator_corner_radius">12.0dip</dimen>
+
+
+</resources>

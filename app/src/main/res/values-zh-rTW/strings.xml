@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <!--Activity標題-->
+    <string name="hello">您好</string>
+    <string name="app_name">e道加密通話</string>
+    <string name="friend_control">好友列表</string>
+    <string name="friend_chat_record">聊天紀錄</string>
+    <string name="friend_man_group">分組管理</string>
+    <string name="friend_query">查詢好友</string>
+    <string name="friend_video">影音視訊聊天</string>
+    <!--控件-->
+    <string name="back_button">返回</string>
+    <string name="send_button">傳送</string>
+    <string name="reply_button">回復</string>
+    <string name="video_button">影音視訊請求</string>
+    <string name="friend_send_message">傳送消息</string>
+    <string name="friend_login">登入</string>
+    <string name="friend_call">電話撥號</string>
+    <!--菜單-->
+    <string name="my_good_friend">我的好友</string>
+    <string name="menu_read_del">閱後即焚</string>
+    <string name="menu_screen_switch">防止休眠</string>
+    <string name="menu_personal">個人訊息</string>
+    <string name="menu_control_updateStatus">狀態修改</string>
+    <string name="menu_control_group">分組管理</string>
+    <string name="menu_control_friendMana">好友管理</string>
+    <string name="menu_control_friendPasswd">密碼/暱稱修改</string>
+    <string name="menu_control_recordset">聊天保存天數</string>
+    <string name="menu_video_close">關閉</string>
+    <string name="menu_video_set">設定</string>
+    <string name="menu_login_netset">網路設定</string>
+    <!--提示-->
+    <string name="alert_reconnection">連接中</string>
+    <string name="alert_connected">已連接</string>
+    <string name="alert_cancel">取消</string>
+    <string name="alert_confirm">確定</string>
+    <string name="alert_quit">退出</string>
+    <string name="alert_reject">對方拒絕...</string>
+    <string name="alert_information">訊息獲取中</string>
+    <string name="alert_send_fail">數據傳送失敗......</string>
+    <string name="alert_network_set">網路設定</string>
+    <string name="alert_server_address">服務器地址:</string>
+    <string name="alert_server_port">服務器埠:</string>
+    <string name="alert_logging">正在登入</string>
+    <string name="alert_login_cancel">取消中...</string>
+    <string name="alert_relogin">銷毀帳號</string>
+    <string name="alert_logout_ask">是否退出程式</string>
+    <string name="alert_call_record">電話紀錄:</string>
+    <string name="alert_call_account">當前餘額(元):</string>
+    <string name="alert_call_notme">不能給本方撥號</string>
+    <string name="alert_communication_error">通訊錯誤</string>
+    <string name="alert_that_busy">對方忙線中</string>
+    <string name="alert_that_reject">對方拒絕</string>
+    <string name="alert_number_error">號碼錯誤</string>
+    <string name="alert_account_error">餘額不足</string>
+    <string name="alert_that_hungup">對方掛斷</string>
+    <string name="alert_from">來自</string>
+    <string name="alert_friend_request">的好友請求</string>
+    <string name="alert_remarks">暱 稱:</string>
+    <string name="alert_sex">性  別:</string>
+    <string name="alert_man">男</string>
+    <string name="alert_woman">女</string>
+    <string name="alert_message">留  言:</string>
+    <string name="alert_accept">接  受</string>
+    <string name="alert_request_reject">拒絕</string>
+    <string name="alert_number">帳  號(手機號)</string>
+    <string name="alert_password">密  碼</string>
+    <string name="alert_save_password">自動登入</string>
+    <string name="alert_save_status">狀態</string>
+    <string name="alert_login">登 入</string>
+    <string name="alert_login_failed">登入失敗</string>
+    <string name="alert_password_failed">帳號或密碼錯誤...</string>
+    <string name="alert_other_failed">網路或用戶名稱錯誤</string>
+    <string name="alert_status_free">空閒</string>
+    <string name="alert_status_begin">開始撥號</string>
+    <string name="alert_status_calling">正在撥號</string>
+    <string name="alert_status_incoming">來電</string>
+    
+    <string name="status_online">連線</string>
+    <string name="status_outline">斷線</string>
+    <string name="status_leave">離開</string>
+    <string name="status_busy">忙碌</string>
+    <string name="status_cutout">斷線</string>
+    <string name="status_meet">參加會議</string>
+    <string name="status_toeat">外出用餐</string>
+    <string name="status_forcall">接聽電話</string> 
+    <string name="status_become">馬上回來</string>
+    <string name="status_display_outline">顯示為離線</string>
+    
+    <string name="alert_request_res">接受了您的請求.</string>
+    <string name="alert_input_number">請輸入號碼:</string>
+    <string name="alert_dial">撥號</string>
+    <string name="alert_dial_error">請輸入正確的電話號碼</string>
+    <string name="alert_video_request">的視訊請求</string>
+    <string name="alert_alert_status">修改狀態,請選擇,或選其它然後輸入</string>
+    <string name="alert_others">其它</string>
+    
+    <string name="alert_select_error">選擇好友</string>
+    <string name="alert_select_friend">當前好友:</string>
+    <string name="alert_short_number">簡碼:</string>
+    <string name="alert_email">電子郵箱:</string>
+    <string name="alert_find_onlinefriend">尋找上線用戶</string>
+    <string name="alert_find_friend">尋找用戶</string>
+    <string name="alert_find_conditionfriend">按條件查找</string>
+    <string name="alert_please_select">請選擇...</string>
+    <string name="alert_change_group">更換群組</string>
+    <string name="alert_update_remark">修改暱稱</string>
+    <string name="alert_addition_friend">添加好友</string>
+    <string name="alert_delete_friend">刪除該好友</string>
+    <string name="alert_must_select">請先選中好友</string>
+    <string name="alert_chat_record_save_days">聊天紀錄保存天數:</string>
+    <string name="alert_days">天</string>
+    <string name="alert_self_conn_error">不能與自己對話</string>
+    <string name="alert_exit_ask">是否退出程式</string>
+    <string name="alert_login_param_error">參數錯誤</string>
+    <string name="alert_login_net_error">網路錯誤</string>
+    <string name="alert_login_user_error">帳號或密碼錯誤</string>
+    <string name="alert_login_user_change">帳護變動，請先執行舊帳護銷毀</string>
+    <string name="alert_login_passwd_error">帳號或密碼錯誤</string>
+    <string name="menu_update_name_passwd">修改暱稱/密碼</string>
+    <string name="menu_update_success">修改成功</string>
+    <string name="menu_update_failed">修改失敗</string>
+    <string name="alert_password_again">兩次密碼輸入不一致</string>
+    <string name="alert_new_signName">新的暱稱:</string>
+    <string name="alert_new_passwd">新的密碼:</string>
+    <string name="alert_new_passwd_again">再次輸入:</string>
+    <string name="alert_register">註冊</string>
+    <string name="alert_status_incalling">正在通話</string>
+    <string name="alert_recharge">充值</string>
+    
+    <string name="alert_about">關於</string>
+    
+    <string name="Video_Switch">影音視訊開關</string>           
+
+    <string name="alert_friend_call_VideoBtn">視訊</string> 
+    <string name="title_settings">設定</string> 
+     <string name="title_chat">聊天</string>
+    <string name="title_friend">好友</string> 
+    <string name="title_contact">聯絡人</string> 
+    <string name="title_recent">通話紀錄</string> 
+    <string name="title_keypad">撥號盤</string> 
+    <string name="no_data">還沒有紀錄哦 !</string> 
+    
+    <string name="alert_selectgroup">請選擇分組</string> 
+    <string name="alert_add">添加</string> 
+    <string name="alert_modify">修改</string>
+    <string name="alert_delete">刪除</string>
+    
+    <string name="alert_edit">編輯</string>  
+    <string name="alert_name">名稱</string>     
+    <string name="alert_phone">手機</string> 
+    
+    <string name="test_weixin_button">對講機</string>      
+    <string name="emoticon">表情</string> 
+    <string name="image">圖片</string> 
+    <string name="file">文件</string> 
+    <string name="camera">拍照</string> 
+    <string name="shake">搖一搖</string>
+    
+    <string name="alert_friend_call_Callback">回撥</string>  
+    <string name="alert_setselfnumber">回撥號碼</string>
+    <string name="alert_dosetselfnumber">設定</string>
+    <string name="alert_dosetselfnumber_suc">回撥請求成功!</string>  
+    
+  
+  <string name="alert_help">人工幫助</string>  
+
+    <!-- beetalk -->
+    <string name="shared_description">沒有</string>
+    <string name="bt_introduction_android">享受安全高品質的通訊!</string>
+    <string name="bt_sign_up">註冊</string>
+    <string name="bt_login">登入</string>
+    <string name="bt_registration_choose_country">選擇國家/地區</string>
+    <string name="label_phone_number_placeholder">請輸入手機號碼(如+886xxxxx)</string>
+
+    <!-- 個人資料 -->
+    <string name="personal_title">個人資料</string>
+    <string name="detail_title">詳細資料</string>
+    <string name="modify">修改</string>
+    <string name="personal_sex">性別</string>
+    <string name="personal_signature">個性簽名</string>
+    <string name="personal_area">地區</string>
+    <string name="personal_head">大頭貼</string>
+    <string name="personal_nick">暱稱</string>
+    <string name="personal_account">帳號</string>
+    <string name="personal_qrcode">二維碼名片</string>
+    
+    <!-- 二維碼-->
+    <string name="scan_tips">將二維碼圖片對準掃描框即可自動掃描</string>   
+    <string name="qr_title">二維碼</string>   
+    
+       <!-- 手機聯絡人 -->
+    <string name="contact_title">手機聯絡人</string>
+    
+        <!-- 通話界面 FriendCall-->
+    <string name="tx_quiet">靜音</string>
+    <string name="tx_has_quiet">取消靜音</string>
+    <string name="tx_hands_free">擴音</string>
+    <string name="tx_has_hands_free">取消擴音中</string>
+    <string name="tx_video">視訊</string>
+
+	
+	<string name="alert_newgroup">新群組名稱:</string>	
+	
+    <string name="tx_Hangup">掛斷</string>
+
+    <string name="registration_verify_number_comment">"您認證的電話號碼僅用於確認用戶及防止不當使用，電話號碼並不會向其他用戶公開。
+請先完成電話號碼帳號的認證程序，才能使用软件的各項功能。"</string>
+
+    <string name="registration_password">密碼</string>
+	<string name="registration_newuser">註冊新帳戶</string>
+    <string name="registration_forgotpassword">忘記密碼?</string>   
+    
+    
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">釋放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失敗</string>
+    <string name="pullup_to_load">上拉加載更多</string>
+    <string name="release_to_load">釋放立即加載</string>
+    <string name="loading">正在加載...</string>
+    <string name="load_succeed">加載成功</string>
+    <string name="load_fail">加載失敗</string>
+
+    <!--Toast-->
+    <string name="openfile_fail">顯示失敗，請稍後再試!</string>
+    <string name="msg_tips">妳有未讀消息</string>
+    <string name="call_tips">妳有未接電話</string>
+    <string name="video_continue">請點擊繼續視頻</string>
+    <string name="msg_too_long">文本超長！將自動轉爲文件發送</string>
+
+    <string name="curversion">當前版本</string>
+    <string name="updateversion">更新版本</string>
+    <string name="website">後臺管理</string>
+    <string name="setip">設置IP</string>
+    <string name="curip">當前IP</string>
+</resources>

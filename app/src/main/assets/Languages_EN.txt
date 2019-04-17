@@ -1,0 +1,268 @@
+﻿[Translation_Display]
+;对显示文字进行翻译,等号左侧为简体中文,右侧为目标语言
+测试=test
+请选择=Please select
+正在运行=Program is running
+对方已挂断=The other party has hung up
+对不起,打开视频失败=Failed to open video
+数据传输中,请稍候...= Data transmission, please wait ...
+电话记录=Phone records
+当前余额:= Current balance:
+视频发送:= Send Video:  			    
+音频发送:= Audio Transmission:
+音视频设置:= Audio and video settings:	    
+确定=OK
+取消=Cancel
+是否退出本次会话=End of this conversation
+通讯出错=Communication error
+对方忙=Busy
+对方拒绝=The other party refuses to reject
+号码错误=Wrong Number
+余额不足=Lack of balance
+对方挂断=The other party hang up
+男=Man
+女=Woman
+岁=Age
+请选择分组=Please select the group
+留言:= Leave a Message:
+对不起,该用户不接受任何人添加=Sorry, the user does not accept any new friend
+对不起,该用户已经是您的好友了=Sorry, that user is already your friend
+对不起,不能加自己为好友=Sorry, cannot add yourself as a friend
+
+请输入分组=Please enter the group
+该分组已存在=The group already exists
+添加失败=Failed to add
+更新失败,请检查网络=Update fails, Please check the network
+信息提示=Message alert
+确定要删除=Are you sure you want to delete
+分组=Grouping
+删除=Delete
+取消=Cancel
+
+///////////////////////////////////////////////////////////////////End. do not modify!!!!
+我的好友=My Good Friends 
+
+联机=Online
+忙碌=Busy
+马上回来=Be right back
+离开=Left
+接听电话=Answer the phone
+外出就餐=Dining out
+参加会议=Attend the meeting
+其它...= Other ....
+显示为脱机=Appear Offline
+断开=Offline
+
+未接通=Not connected
+通话时长=Talk time
+给您微信留言=Leave a message
+对方停止=The other party stop
+发送出错=Unable to send  
+文件不存在=File does not exist
+文件打开失败=File open failed
+没有存储卡=No memory card
+源文件目录或是目标文件目录为空=Source file directory or target file directory is empty
+源文件不存在=Source file does not exist
+手机=Mobile
+返回根目录..= Returns the root directory...		    
+返回上一层..= Return to the upper directory..	
+
+有新版本= New version
+是否更新?=Update ?
+
+暂无聊天记录= No chat records
+正在登陆...=Logging...
+
+请输入=Please Enter
+确定=OK
+输入不能为空= Input cannot be blank
+取消=Cancel
+未知联系人= Unknown Contact
+
+添加好友= Add Friend
+是否添加:=Add or not:
+未知联系人= Unknown Contact
+请说出您的问题,您的问题将会自动发给人工客服.= Please state your question, your question will be automatically sent to the customer service staff.
+删除信息= Delete message
+您确定删除吗？= Are you sure to delete it?
+退出提示= Exit Help
+您确定退出到桌面吗？= Are you sure to exit to the desktop?
+已连上=Connected
+登录超时,请检查账号!= Login Timeout, please check account!
+请选择...= Please select...
+请输入分组= lease enter the group
+分组已存在= Group already exists
+添加失败= Failed to add
+更新失败,请检查网络= Update fails, check the network
+信息提示= Message alert
+确定要删除= Are you sure you want to delete?
+分组=Group
+删除=Delete
+删除失败= Failed to delete
+请选择分组= Please select the group
+留言:= Message
+对不起,该用户不接受任何人添加= Sorry, the user does not accept any new friend
+对不起,该用户已经是您的好友了= Sorry, that user is already your friend
+对不起,不能加自己为好友= Sorry, cannot add yourself as a friend
+电话记录:= Phone records:
+当前余额:= Current balance:
+视频发送:=Send Video:
+音频发送:=Send Voice:
+音视频设置:= Audio and video settings:
+是否退出本次会话=End of the conversion
+数据传输中,请稍候...= Data transmission, please wait...
+
+对方已挂断= The other party has hung up
+对不起,打开视频失败= Failed to open video
+
+Mic设备打开出错!= Can not turn on the microphone
+无法连接人工客服!= Unable to connect customer service!
+网络通讯出错!= Network communication error!
+正在提交人工客服...= Being submitted to Customer Service!
+提交人工客服出错!=Fail to summit to Customer Service!
+
+手机=Mobile
+
+返回根目录..= Returns the root directory...	.
+返回上一层..= Return to the upper directory..
+
+重发提示= Retransmit prompt
+您确定重发消息吗？= Are you sure you want to resend message?
+
+邀请= Invite
+添加= Add
+已添加= Added
+
+没有存储卡= No memory card
+
+正在获取通讯录好友信息= Searching in phone book
+
+我在用= I am using
+手机软件,很好用!下载地址= Phone software, it is easy to use! Software Download URL:
+我的账号是= My Account is
+您也来安装试试吧!= You can also try to install it!
+不能添加自己= You cannot add yourself
+
+不能拨打本号码= The numbers cannot be dialed
+请输入=Please enter
+输入不能为空= Input cannot be empty
+松开刷新=Release to updates
+下拉刷新= Dropdown to update
+正在刷新...= Updating...
+未知联系人= Unknown Contact
+
+手机相册 = Gallery
+相机拍摄 = Take a Photo
+选择图片 = Change My Photo
+
+头像上传成功 = Avatar uploaded successfully
+
+可用空间太小！= Available space is too small!
+源文件目录或是目标文件目录为空= Source file directory or target file directory is empty
+源文件不存在 = Source file does not exist
+
+不能拨打本号码 = Can not call this number
+
+添加电话簿好友 = Add Friends From Mobile Phone Contacts
+扫一扫 = Scan QR Code
+条件查询 = Search Contacts
+
+未接通 = Cannot connect
+通话时长 = Talk time
+
+内容已经复制= Content has been copied
+
+好友添加成功.=Friend successfully added.
+
+临时聊天= Temporary 
+请输入有效分组=Please input valid group
+
+程序名=Program Name
+版本号=Version
+版权所有.=All rights reserved.
+
+
+发送消息失败!=Send Message Error!
+
+数据加密保护生效中.=Data encryption protection effect.
+
+请插入正确的安全T卡!=Invalid T-Card!
+端到端加密密钥正在协商中...=End-to-end encryption keys is in negotiation...
+无法解读加密数据.=Cannot read encrypted data.
+正在更新加密数据,请等待...=Encrypted data is being updated, please wait ...
+
+正在获取数据=Retrieving data
+生成RSA密钥失败!=RSA key failure!
+无效用户!应用退出!=Invalid account!Program exit!
+
+关闭阅后即焚=Delete after Read Off
+信息阅读后不会被销毁=Keep Message after read
+开启阅后即焚=Delete after Read On
+信息阅读后会被销毁,包含以前阅读过的信息都会被销毁=Delete Message after read
+启动阅后即焚=Delete after Read On
+取消阅后即焚=Delete after Read Off
+
+该操作会清理所有保存的数据记录,是否继续?=Are you sure to delete all data?
+
+导出失败!=Export Failed!
+导出失败!=Export Succeeded!
+图片=Picture
+文件=File
+视频=Video
+录音保存失败,请打开录音权限和保持足够存储空间=錄音保存失敗,請打開錄音許可權和保持足夠存儲空間=File save failed!Please enable access priviledge and enough storage!
+跟你解除了好友关系!=Relieved friends relationship!
+端到端加密密钥正在协商中...=End-to-end encryption key is in consultation ...
+请打开录音权限=Please enable recording priviledge
+请尝试按以下路径开启录音权限：=Please open recording priviledge as below:
+方法一:設置->版權管理->應用程式->=Method 1:Setting->Priviledge Management->Application->
+->录音->允许。=->Recording->Enable.
+方法二：在系统应用管理中卸载本应用，重新安装，在安装时选择信任本应用，遇到权限提示时均选择允许。=Method 2: Remove and re-install this application, and enable all priviledge switch when prompt.
+请开启忽略电池优化~=Please enable ignore battery optimized ~
+通话记录=Dial history
+联系人=Contact
+消息=Message
+设置=Setting
+取消登录！=Cancel Login
+請點擊[視頻]圖示返回通話介面!=Please click [video] icon to return to call!
+打开声音播放设备错误=打開聲音播放設備錯誤=Failed to open audio play device
+打开录音设备错误=Failed to open audio recording device
+很抱歉,程序出现异常,即将退出.=Sorry for program unexceptable error.Will exit now.
+日志文件不存在！=Log file not exists!
+导出=Export
+正在连接，请保持网络连接正常!=Connecting,please ensure network ok!
+对方未在线，请稍后再试!=Peer not online, please retry later!
+在和其他人视频中！=In call with others!
+请安装相应软件打开=Please install app to open it
+请选择文件类型=Please select file type
+文本=Text
+音频=Audio
+图像=Picture
+您视频地址为:=Your video address is
+下载...==Downloading...
+取消下载=Cancel downloading
+语音=Audio
+[语音]=[Audio]
+[图片]=[Picture]
+[文件]=[File]
+点击进入视频=Click to enter vedio call
+刚刚=剛剛
+分钟前=just
+小时前=hours ago
+天前=days ago
+周前=weeks ago
+昨天=yesterday
+前天=the day before yesterday
+
+[Translation_Input]
+;对于系统状态，需要进行反向翻译,等号左为目标语言,右为简体中文。
+Online=联机
+Busy=忙碌
+Be right back=马上回来
+Left=离开
+Answer the phone=接听电话
+Dining out=外出就餐
+Attend the meeting=参加会议
+Other ....=其它...
+Appear Offline=显示为脱机
+Offline=断开
+My Good Friends=我的好友

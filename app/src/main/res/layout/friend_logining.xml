@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/layout_logining"
+    android:background="@color/colorPrimary"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+
+  <LinearLayout
+
+
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+
+      android:orientation="vertical"
+
+      >
+
+    <xechwic.android.view.CircleImageView
+        android:id="@+id/iv_logining_avatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/d7"
+        android:scaleType="centerCrop"
+        android:src="@drawable/login_logo"
+        app:civ_border_width="@dimen/d2"
+        app:civ_border_color="@color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="正在登录..."
+        android:textSize="@dimen/sp_20"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/d5"
+        android:textColor="@color/white"/>
+  </LinearLayout>
+
+  <Button
+      android:id="@+id/btn_cancel_login"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="@dimen/d5"
+      android:layout_centerHorizontal="true"
+      android:text="取消登录"
+      android:textColor="#33c56c"
+      android:paddingLeft="@dimen/d5"
+      android:paddingRight="@dimen/d5"
+      android:background="@drawable/logining_nor_shape"/>
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#74ca96</color>
+    <color name="colorPrimaryDark">#74ca96</color>
+    <color name="colorAccent">#74ca96</color>
+
+    <color name="login_green_btn">#81d8a3</color>
+    <color name="camera_progress_three">#24ff00</color>
+    <color name="color_4e3d31">#4e3d31</color>
+    <color name="grey8">#888888</color>
+    <color name="transparent_black_85">#DA000000</color>
+    <color name="gray0">#464646</color>
+    <color name="gray1">#7e7e7e</color>
+    <color name="gray2">#969696</color>
+    <color name="gray3">#c8969696</color>
+    <color name="gray4">#F5F5F5</color>
+    <color name="gray5">#EBEBEB</color>
+    <color name="gray6">#FBFBFB</color>
+    <color name="gray7">#999999</color>
+    <color name="gray8">#D9D9D9</color>
+    <color name="gray9">#DBDFE0</color>
+    <!-- standard -->
+    <color name="white">#FFFFFF</color>  <!-- 白色 -->
+    <color name="yellow">#FFFF00</color> <!-- 黄色 -->
+    <color name="gold">#FFD700</color>   <!-- 金色 -->
+    <color name="orange">#FFA500</color> <!-- 橙色 -->
+    <color name="red">#FF0000</color>    <!-- 红色 -->
+    <color name="gray">#808080</color>   <!-- 灰色 -->
+    <color name="green">#008000</color>  <!-- 绿色 -->
+    <color name="blue">#0000FF</color>   <!-- 蓝色 -->
+    <color name="black">#000000</color>  <!-- 黑色 -->
+
+    <!-- common -->
+    <color name="transparent">#00000000</color>
+    <color name="transparent_30percent">#4D000000</color>
+    <color name="transparent_50percent">#80000000</color>
+    <color name="transparent_70percent">#B3000000</color>
+    <color name="transparent_80percent">#CC000000</color>
+    <color name="tx_nor_color">#333333</color>
+    <color name="tx_gray_color">#ffb0b0b0</color>
+    <color name="linecolor">#ffacacac</color>
+
+    <color name="transparent_background">#88000000</color>
+    <color name="header_color">#74ca96</color>
+    <color name="hint_tx">#c1c1c1</color>
+
+
+    <color name="bg_nor_color">#fff6f6f6</color>
+    <color name="gray_line_color">#ff696969</color>
+
+
+    <color name="lessgray">#ffdedede</color>
+
+    <!-- 底部菜单栏 -->
+    <color name="main_item_selected">#838992</color>
+    <color name="main_item_bright">#FFFFFFFF</color>
+
+</resources>

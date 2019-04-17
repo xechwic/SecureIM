@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/list_item_selector"
+        >
+        <ImageView
+            android:id="@+id/iv_record_flag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/d4"
+            android:src="@drawable/ic_record_success"/>
+        <TextView
+            android:id="@+id/phonename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123456778"
+            android:textColor="@color/tx_nor_color"
+            android:layout_toRightOf="@id/iv_record_flag"
+            android:layout_marginTop="@dimen/d4"
+            android:layout_marginLeft="@dimen/d4"
+            android:textSize="@dimen/sp_16" />
+        <ImageView
+            android:id="@+id/contact_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/phonename"
+            android:layout_marginTop="@dimen/d4"
+            android:layout_marginLeft="@dimen/d4"
+            android:src="@drawable/def_record_out" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/phonename"
+            android:layout_marginTop="@dimen/d4"
+            android:layout_toRightOf="@id/iv_record_flag"
+            android:layout_marginLeft="@dimen/d4"
+            android:layout_marginRight="@dimen/d4"
+
+            android:id="@+id/linearLayout"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_record_avatar"
+                />
+            <TextView
+                android:id="@+id/select_list_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#999999"
+                android:text="110011"
+                android:layout_marginLeft="@dimen/d2"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_record_calltime"
+                android:layout_marginLeft="@dimen/d4"/>
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#999999"
+                android:text="00:00:00"
+                android:layout_marginLeft="@dimen/d2"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_record_more"
+                    android:layout_marginTop="8dp"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/call_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:text="1分56秒"
+            android:textSize="@dimen/sp_16"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/d4"
+            android:layout_alignRight="@+id/linearLayout"
+            android:layout_alignEnd="@+id/linearLayout"
+            />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_hight"
+        android:layout_marginLeft="40dp"
+        android:background="@color/lessgray"/>
+</LinearLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_nor_color"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:id="@+id/ll_topicon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/def_height"
+            >
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_arrow_left"
+                android:padding="@dimen/d3"
+                android:layout_marginLeft="@dimen/d3"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="好友资料"
+                android:textSize="@dimen/sp_20"
+                android:layout_centerInParent="true"
+                android:textColor="@color/white"/>
+            <ImageView
+                android:id="@+id/iv_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_add"
+                android:padding="@dimen/d3"
+                android:layout_marginRight="@dimen/d3"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/d6"
+            android:layout_marginBottom="80dp"
+            android:gravity="center">
+            <xechwic.android.view.CircleImageView
+                android:id="@+id/iv_avatar"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/login_logo"/>
+            <TextView
+                android:id="@+id/nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/d4"
+                android:text="昵称"
+                android:padding="@dimen/d2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_18"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/account_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/def_height"
+            android:background="@drawable/list_item_selector"
+            android:clickable="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/account_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/d5"
+                android:text="@string/personal_account"
+                android:textColor="#333333"
+                />
+
+            <TextView
+                android:id="@+id/account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:paddingRight="@dimen/def_height"
+                android:textColor="#999999"
+                android:text="10001"/>
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/account_rl"
+            >
+            <RelativeLayout
+                android:id="@+id/btn_detail_video_chat"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/def_height"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/d5"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:background="@drawable/btn_green_selector"
+                >
+                <TextView
+                    android:id="@+id/tv_videolabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="音视频"
+                    android:textColor="@color/white"
+                    android:textSize="18.0sp"
+                    android:layout_centerInParent="true"
+                    />
+                <ImageView
+                    android:layout_toLeftOf="@id/tv_videolabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/d3"
+                    android:src="@drawable/icon_videochat"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/btn_detail_chat"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/def_height"
+                android:layout_above="@id/btn_detail_video_chat"
+                android:layout_marginBottom="@dimen/d4"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dip"
+                android:background="@drawable/btn_exit_selector">
+                <TextView
+                    android:id="@+id/tv_msglabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_chat"
+                    android:textColor="@color/white"
+                    android:layout_centerInParent="true"
+                    android:textSize="18.0sp"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_msgchat"
+                    android:layout_toLeftOf="@id/tv_msglabel"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/d3"
+                    />
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

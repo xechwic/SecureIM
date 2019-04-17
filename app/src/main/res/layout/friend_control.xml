@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/control_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/main_titlebar"
+        />
+    <include
+        android:id="@+id/main_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/main_bottom" />
+
+    <xechwic.android.view.XViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/main_bottom_layout"
+        android:layout_below="@id/title"
+        />
+
+     <ImageView
+         android:id="@+id/iv_back2_video"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@id/main_bottom_layout"
+         android:src="@drawable/btn_backvideo_selector"
+         android:visibility="gone"
+         android:layout_margin="10dp"/>
+
+</RelativeLayout>

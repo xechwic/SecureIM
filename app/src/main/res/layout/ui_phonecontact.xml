@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <include
+        layout="@layout/titlebar"
+        />
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/list_item_hight"
+    >
+         <TextView
+             android:id="@+id/tv_add"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:gravity="center"
+             android:text="添加"
+             android:textColor="@color/blue"
+             android:padding="5dp"
+             android:textStyle="bold"/>
+         <EditText
+             android:id="@+id/et_number"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_toLeftOf="@id/tv_add"
+             android:hint="@string/alert_input_number"
+             android:background="@color/transparent"
+             android:layout_marginLeft="5dp"
+             android:paddingLeft="10dp"
+             android:textColor="@color/blue"
+             android:textSize="18sp"
+             android:textStyle="bold"/>
+          <View
+              android:layout_width="match_parent"
+              android:layout_height="0.5dp"
+              android:layout_alignParentBottom="true"
+              android:background="@color/linecolor"
+              />
+     </RelativeLayout>
+    <ListView
+        android:id="@+id/contact_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:drawSelectorOnTop="false"
+        android:fastScrollEnabled="true"
+        android:scrollbars="vertical" >
+    </ListView>
+
+</LinearLayout>

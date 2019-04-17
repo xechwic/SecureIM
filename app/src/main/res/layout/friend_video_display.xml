@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_friend_video_display"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/transparent"
+    >
+
+
+
+          
+     
+
+
+
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/friend_video_display_textLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray5"
+        android:orientation="vertical" >
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+           >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/friend_video_minimize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/anx"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="切换"
+                    android:paddingTop="@dimen/d2"
+                    android:textColor="@color/gray0"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/friend_video_AESlock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_lock"
+                     />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="加密"
+                    android:paddingTop="@dimen/d2"
+                    android:textColor="@color/gray0"
+                    />
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/friend_video_micswitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_micro_dark"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="语音"
+                    android:paddingTop="@dimen/d2"
+                    android:textColor="@color/gray0"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/friend_video_videoswitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_prefs_media_video"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="摄像头"
+                    android:paddingTop="@dimen/d2"
+                    android:textColor="@color/gray0"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/friend_video_speakerswitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_sound_speakerphone_holo_dark"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="免提"
+                    android:paddingTop="@dimen/d2"
+                    android:textColor="@color/gray0"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/hangup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="挂 断"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_16"
+            android:padding="@dimen/d3"
+            android:background="@drawable/btn_destroy_selector"
+            android:layout_marginTop="@dimen/d5"
+            android:layout_marginBottom="@dimen/d4"
+            android:layout_marginLeft="@dimen/d4"
+            android:layout_marginRight="@dimen/d4"
+            />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/friend_video_display_videoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/friend_video_display_textLayout"
+         >
+        <LinearLayout
+            android:id="@+id/video_big"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="horizontal" />
+
+        <FrameLayout
+            android:id="@+id/small_size_preview_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="18dp"
+            >
+            <RelativeLayout
+                android:id="@+id/rl_smallcamera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <LinearLayout
+                    android:id="@+id/video_small"
+                    android:layout_width="64dp"
+                    android:layout_height="98dp"
+                    android:background="@color/transparent"
+                    android:orientation="vertical"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/def_height"
+                     />
+
+            </RelativeLayout>
+
+        </FrameLayout>
+        <ImageView
+            android:id="@+id/friend_video_facingswitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/video_small"
+
+            android:src="@drawable/btn_facingcam_selector"
+            android:background="@color/transparent"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/transparent_70percent">
+        <xechwic.android.view.CircleImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/def_avatar"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="@dimen/d3"
+            android:layout_marginBottom="@dimen/d3"
+            />
+        <TextView
+            android:id="@+id/friend_video_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="110011"
+            android:textColor="@color/white"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/d4"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_avatar"
+            android:textSize="@dimen/sp_16" >
+        </TextView>
+        <ImageView
+            android:id="@+id/iv_camera_sw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_camera_sw_selector"
+            android:layout_marginLeft="5dip"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/d3"/>
+        <TextView
+            android:id="@+id/friend_video_display_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/iv_camera_sw"
+            android:layout_marginRight="@dimen/d3"
+            android:padding="5dip"
+            android:textColor="@color/white"
+            android:text="00:00:00"
+            android:textSize="@dimen/sp_16" >
+        </TextView>
+
+    </RelativeLayout>
+</RelativeLayout>
+

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/friend_man_group_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <include
+        layout="@layout/titlebar"/>
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10px" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10px"
+            android:paddingRight="5px"
+            android:paddingTop="10px"
+            android:text="@string/alert_selectgroup"
+            android:textColor="@color/black" >
+        </TextView>
+
+        <Spinner
+            android:id="@+id/groupSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </Spinner>
+    </LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10px"
+        android:paddingTop="10px" >
+        <Button
+            android:id="@+id/groupDeleteBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:textColor="@color/black"
+            android:text="@string/alert_delete" >
+        </Button>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10px"
+        android:paddingTop="10px" >
+		
+		
+		<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10px"
+            android:paddingRight="5px"
+            android:paddingTop="10px"
+            android:text="@string/alert_newgroup"
+            android:textColor="@color/black" >
+        </TextView>
+        
+		
+		
+        <EditText
+            android:id="@+id/groupEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:maxLines="1"
+            android:maxWidth="120px"
+            android:minWidth="100px"
+            android:paddingRight="7px"
+            android:textColor="@color/black">
+
+            <requestFocus />
+        </EditText>
+
+		<Button
+		    android:id="@+id/groupAddBtn"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/alert_add"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/groupUpdateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:textColor="@color/black"
+            android:text="@string/alert_modify" >
+        </Button>
+
+
+    </LinearLayout>
+    
+</LinearLayout>

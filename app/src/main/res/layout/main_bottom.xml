@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/header_color"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal" >
+
+    <FrameLayout style="@style/main_tab_but_linear"
+
+        >
+
+        <LinearLayout
+
+            android:id="@+id/fl_main_record"
+            style="@style/main_tab_but_linear" >
+
+            <ImageView
+                android:id="@+id/img_main_record_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_social_bright"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/tx_main_record_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_recent"
+                android:textColor="@color/main_item_bright"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </FrameLayout>
+
+
+    <FrameLayout style="@style/main_tab_but_linear"
+         >
+
+        <LinearLayout
+            android:id="@+id/fl_main_contact"
+            style="@style/main_tab_but_linear" >
+
+            <ImageView
+                android:id="@+id/img_main_contact_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_contacts_bright"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/tx_main_contact_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_contact"
+                android:textColor="@color/main_item_bright"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout style="@style/main_tab_but_linear" >
+
+        <TextView
+            android:id="@+id/tx_main_chat_item_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="8dip"
+            android:background="@drawable/unread_count_bg"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/fl_main_chat"
+            style="@style/main_tab_but_linear" >
+
+            <ImageView
+                android:id="@+id/img_main_chat_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_chats_bright"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/tx_main_chat_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_chat"
+                android:textColor="@color/main_item_bright"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </FrameLayout>
+
+
+    <FrameLayout style="@style/main_tab_but_linear" >
+
+        <LinearLayout
+            android:id="@+id/fl_main_setting"
+            style="@style/main_tab_but_linear" >
+
+            <ImageView
+                android:id="@+id/img_main_setting_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_setting_bright"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/tx_main_setting_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_settings"
+                android:textColor="@color/main_item_bright"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

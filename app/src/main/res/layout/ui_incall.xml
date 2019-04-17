@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wallpaper_default"
+    >
+
+    <include
+        android:id="@+id/incall_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:visibility="gone"
+        layout="@layout/bbactionbar" />
+
+      <TextView
+            android:id="@+id/tx_incall_status"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/incall_title"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="@string/alert_status_incoming"
+            android:padding="10dip" >
+        </TextView>
+    <LinearLayout
+        android:id="@+id/ll_head"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dip"
+        android:orientation="vertical" >
+
+        <xechwic.android.view.CircleImageView
+            android:id="@+id/img_incall_head"
+              android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_gravity="center"
+            android:src="@drawable/def_avatar" />
+
+        <TextView
+            android:id="@+id/tx_incall_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dip"
+            android:text="name"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tx_incall_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dip"
+            android:text="number"
+            android:textColor="@color/white" />
+        
+        
+        
+    </LinearLayout>
+    
+
+
+    <LinearLayout
+        android:id="@+id/operation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/ic_answer"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_jog_dial_answer" 
+            android:layout_marginRight="10dip"
+            />
+
+        <ImageView
+            android:id="@+id/ic_decline"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_jog_dial_decline"
+            
+            android:layout_marginLeft="10dip"
+            
+             />
+    </LinearLayout>
+
+</RelativeLayout>

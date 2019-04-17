@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activity标题 -->
+    <string name="hello">Hello</string>
+    <string name="app_name">BusinessPhone_cn</string>
+    <string name="friend_control">Friends</string>
+    <string name="friend_chat_record">Chat Records</string>
+    <string name="friend_man_group">Group Management</string>
+    <string name="friend_query">Searching for friends</string>
+    <string name="friend_video">Video talk</string>
+    <!-- 控件 -->
+    <string name="back_button">Back</string>
+    <string name="send_button">Send</string>
+    <string name="reply_button">Reply</string>
+    <string name="video_button">Video Request</string>
+    <string name="friend_send_message">Send Message</string>
+    <string name="friend_login">Login</string>
+    <string name="friend_call">Dial</string>
+    <!-- 菜单 -->
+    <string name="my_good_friend">My Good Friends</string>
+    <string name="menu_read_del">Read DEL</string>
+    <string name="menu_screen_switch">No Sleep</string>
+    <string name="menu_personal">My Profile</string>
+    <string name="menu_control_updateStatus">Change Status</string>
+    <string name="menu_control_group">Group Management</string>
+    <string name="menu_control_friendMana">Friend Management</string>
+    <string name="menu_control_friendPasswd">Password/Nickname</string>
+    <string name="menu_control_recordset">Chat History Duration</string>
+    <string name="menu_video_close">Close</string>
+    <string name="menu_video_set">Video Setup</string>
+    <string name="menu_login_netset">Network Setup</string>
+    <!-- 提示 -->
+    <string name="alert_reconnection">Connecting</string>
+    <string name="alert_connected">Connected</string>
+    <string name="alert_cancel">Cancel</string>
+    <string name="alert_confirm"> OK </string>
+    <string name="alert_quit">Exit</string>
+    <string name="alert_reject">Reject...</string>
+    <string name="alert_information">Getting information </string>
+    <string name="alert_send_fail">Fail to send......</string>
+    <string name="alert_network_set">Network setup</string>
+    <string name="alert_server_address">Server IP address:</string>
+    <string name="alert_server_port">Server port:</string>
+    <string name="alert_logging">Logging</string>
+    <string name="alert_login_cancel">Canceling...</string>
+    <string name="alert_relogin">Destroy Account</string>
+    <string name="alert_logout_ask">Logout ?</string>
+    <string name="alert_call_record">Call records:</string>
+    <string name="alert_call_account">Account Balance:</string>
+    <string name="alert_call_notme">Cannot call yourself</string>
+    <string name="alert_communication_error">Communication Error </string>
+    <string name="alert_that_busy">Callee Busy</string>
+    <string name="alert_that_reject">Callee Reject</string>
+    <string name="alert_number_error">Wrong Number</string>
+    <string name="alert_account_error">Out of Money</string>
+    <string name="alert_that_hungup"> Callee hung up </string>
+    <string name="alert_from">From</string>
+    <string name="alert_friend_request">’s friend request</string>
+    <string name="alert_remarks">Nickname:</string>
+    <string name="alert_sex">Sex:</string>
+    <string name="alert_man">Man</string>
+    <string name="alert_woman">Woman</string>
+    <string name="alert_message">Message:</string>
+    <string name="alert_accept">Accept</string>
+    <string name="alert_request_reject">Reject</string>
+    <string name="alert_number">Account(Mobile Number)</string>
+    <string name="alert_password">Password</string>
+    <string name="alert_save_password">Auto Login</string>
+    <string name="alert_save_status">Status</string>
+    <string name="alert_login">Login</string>
+    <string name="alert_login_failed"> Login Failed </string>
+    <string name="alert_password_failed">Account or Password Error...</string>
+    <string name="alert_other_failed">Network or account error</string>
+    <string name="alert_status_free">Free</string>
+    <string name="alert_status_begin">Begin to dial</string>
+    <string name="alert_status_calling">Calling</string>
+    <string name="alert_status_incoming">Incomming</string>
+    
+    <string name="alert_about">About</string>    
+    
+    <string name="status_online">Online</string>
+    <string name="status_outline">Offline</string>
+    <string name="status_leave">Left</string>
+    <string name="status_busy">Busy</string>
+    <string name="status_cutout">Offline</string>
+    <string name="status_meet">Attend the meeting</string>
+    <string name="status_toeat">Dining out</string>
+    <string name="status_forcall">Answer the phone</string> 
+    <string name="status_become">Be right back</string>
+    <string name="status_display_outline">Appear Offline</string>
+    
+    <string name="alert_request_res">Accept your request.</string>
+    <string name="alert_input_number">Input Number:</string>
+    <string name="alert_dial">Dial</string>
+    <string name="alert_dial_error">Please input correct number</string>
+    <string name="alert_video_request">’s video request</string>
+    <string name="alert_alert_status"> Modify status or select other input</string>
+    <string name="alert_others">Others</string>
+    <string name="alert_select_error">Select Friend</string>
+    <string name="alert_select_friend">Friend:</string>
+    <string name="alert_short_number">Short Code:</string>
+    <string name="alert_email">Email:</string>
+    <string name="alert_find_onlinefriend">Find Online Friends</string>
+    <string name="alert_find_friend">Find Friends</string>
+    <string name="alert_find_conditionfriend">Condition Finding</string>
+    <string name="alert_please_select">Please Select..</string>
+    <string name="alert_change_group">Change Group</string>
+    <string name="alert_update_remark">Modify Nickname</string>
+    <string name="alert_addition_friend">Add Friend</string>
+    <string name="alert_delete_friend">Delete Friend</string>
+    <string name="alert_must_select">Please select friend first</string>
+    <string name="alert_chat_record_save_days">Keep chat history for</string>
+    <string name="alert_days">Days</string>
+    <string name="alert_self_conn_error">Cannot self-chat </string>
+    <string name="alert_exit_ask">Exit program?</string>
+    <string name="alert_login_param_error">Parameters Error</string>
+    <string name="alert_login_net_error">Network Error</string>
+    <string name="alert_login_user_error">Account or Password Error</string>
+    <string name="alert_login_user_change">Account Change </string>
+    <string name="alert_login_passwd_error">Account or Password Error </string>
+    <string name="menu_update_name_passwd">Update Nickname/Password </string>
+    <string name="menu_update_success"> Update Success </string>
+    <string name="menu_update_failed"> Update Failed </string>
+    <string name="alert_password_again">Two password are not Consistent</string>
+    <string name="alert_new_signName">New Nickname:</string>
+    <string name="alert_new_passwd">New Password:</string>
+    <string name="alert_new_passwd_again">Confirm New Password:</string>
+    <string name="alert_register">Register</string>
+    <string name="alert_status_incalling">Talking</string>
+    <string name="alert_recharge">Recharge</string>
+    <string name="web_login_url">http://www.jrsys.com.tw/</string>
+
+    <string name="Video_Switch">Switch Video On/Off</string>           
+
+    <string name="alert_friend_call_VideoBtn">Video Button</string> 
+    <string name="title_settings">Settings</string> 
+     <string name="title_chat">Chat</string>
+    <string name="title_friend">Friend</string> 
+    <string name="title_contact">Contacts</string> 
+    <string name="title_recent">Recents</string> 
+    <string name="title_keypad">Keypad</string> 
+    <string name="no_data">No record !</string> 
+    
+    <string name="alert_selectgroup">Please select group</string> 
+    <string name="alert_add">Add</string> 
+    <string name="alert_modify">Modify</string>
+    <string name="alert_delete">Delete</string>
+    
+    <string name="alert_edit">Edit</string>  
+    <string name="alert_name">Name</string>     
+    <string name="alert_phone">Mobile</string> 
+    
+    <string name="test_weixin_button"> Interphone </string>      
+    <string name="emoticon">Emotion</string> 
+    <string name="image">Image</string> 
+    <string name="file">File</string> 
+    <string name="camera">Camera</string> 
+    <string name="shake">Shake it!</string>
+    
+    <string name="alert_friend_call_Callback"> Callback </string>  
+    <string name="alert_setselfnumber"> Callback  Number</string>
+    <string name="alert_dosetselfnumber">Settings</string>
+    <string name="alert_dosetselfnumber_suc"> Callback request confirmed!</string>  
+
+    <string name="alert_help">Help</string>
+
+    <!-- beetalk -->
+    <string name="shared_description">No</string>
+    <string name="bt_introduction_android">Good quality secure chat!</string>
+    <string name="bt_sign_up">Register</string>
+    <string name="bt_login">Login</string>
+    <string name="bt_registration_choose_country">Select Country</string>
+    <string name="label_phone_number_placeholder">Mobile number(ex.+86xxxxx)</string>
+
+    
+        <!-- 个人资料 -->
+    <string name="personal_title">Personal data</string>
+     <string name="detail_title">Detail</string>
+    <string name="modify">Modify</string>
+    <string name="personal_sex">Gender</string>
+    <string name="personal_signature">Signature</string>
+    <string name="personal_area">Area</string>
+    <string name="personal_head">Photo</string>
+    <string name="personal_nick">Nickname</string>
+    <string name="personal_account">Account</string>
+    <string name="personal_qrcode">QR code</string>
+    
+        <!-- Qrcode -->
+    <string name="scan_tips">Put the QR code picture into the frame</string>   
+    <string name="qr_title">QR code name card</string>   
+   
+        <!-- Contact -->
+    <string name="contact_title">Mobile phone contacts</string>
+    
+        <!-- call FriendCall-->
+    <string name="tx_quiet">Quiet</string>
+    <string name="tx_has_quiet">Cancel Quiet</string>
+    <string name="tx_hands_free">Hands Free</string>
+    <string name="tx_has_hands_free">Cancel Hands Free</string>
+    <string name="tx_video">Video</string>
+
+    <string name="tx_Hangup">HangUp</string>
+    <string name="alert_newgroup">New Group Name:</string>
+
+    
+    <string name="registration_verify_number_comment">"Phone numbers will be used for identification purposes and to prevent misuse of the service. It will not be shown to other users.
+ please verify using your phone number."</string>
+   
+    <string name="registration_password">Password</string>
+    <string name="registration_forgotpassword">Fogot password?</string>
+    <string name="registration_newuser">Register new user</string>
+
+    
+    <string name="pull_to_refresh">Pull Refresh</string>
+    <string name="release_to_refresh">Release</string>
+    <string name="refreshing">Refreshing...</string>
+    <string name="refresh_succeed">Refresh Succeed</string>
+    <string name="refresh_fail">Refresh Fail</string>
+    <string name="pullup_to_load">Pull up to load</string>
+    <string name="release_to_load">Release to load</string>
+    <string name="loading">Loading...</string>
+    <string name="load_succeed">Load succeed</string>
+    <string name="load_fail">Load fail</string>
+
+    <!--Toast-->
+    <string name="openfile_fail">Open file fail!</string>
+    <string name="msg_tips">You have a message</string>
+    <string name="call_tips">You have a miss call</string>
+    <string name="video_continue">Video continue</string>
+    <string name="msg_too_long">Text long!Will be automatically sent to file</string>
+
+    <string name="curversion">Current Version</string>
+    <string name="updateversion">Update Version</string>
+    <string name="website">Web Manager</string>
+    <string name="setip">Set IP</string>
+    <string name="curip">Current IP</string>
+</resources>

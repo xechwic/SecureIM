@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+  <include
+      android:id="@+id/title"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:visibility="gone"
+      layout="@layout/bbactionbar" />
+
+  <LinearLayout
+      android:id="@+id/ll_topicon"
+      android:layout_below="@id/title"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/colorPrimary"
+      android:orientation="vertical"
+
+      >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/friend_login"
+        android:textSize="@dimen/sp_20"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="@dimen/d4"
+        android:textColor="@color/white"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="80dp"
+        android:src="@drawable/login_logo"/>
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_below="@id/ll_topicon"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:background="@color/white"
+      android:orientation="vertical"
+      android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:id="@+id/login_rlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30.0dip"
+        android:orientation="vertical"
+        >
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="@dimen/d4"
+          android:layout_marginRight="@dimen/d4"
+          >
+        <EditText
+            android:id="@+id/loginuseraccount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_et_bg"
+            android:padding="@dimen/d3"
+            android:hint="账号"
+            android:maxLines="1"
+            android:textColorHint="@color/hint_tx"
+            android:inputType="textNoSuggestions"
+
+            />
+
+        <ImageView
+            android:id="@+id/delete_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@id/loginuseraccount"
+            android:paddingRight="@dimen/d2"
+            android:src="@drawable/index_x" />
+      </RelativeLayout>
+
+
+      <EditText
+          android:id="@+id/loginPassword"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/d4"
+          android:layout_marginLeft="@dimen/d4"
+          android:layout_marginRight="@dimen/d4"
+          android:background="@drawable/login_et_bg"
+          android:padding="@dimen/d3"
+          android:hint="@string/registration_password"
+          android:inputType="textPassword"
+          android:ellipsize="end"
+          android:textColorHint="@color/hint_tx"
+          android:maxLines="1"
+          />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/d4"
+    android:layout_marginTop="@dimen/d3"
+    android:layout_marginRight="@dimen/d4"
+    >
+  <CheckBox
+      android:id="@+id/cb_auto"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="保存密码"
+      android:textColor="@color/black"
+/>
+  <TextView
+      android:id="@+id/forget_pwd"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:padding="5dp"
+      android:visibility="invisible"
+      android:gravity="center"
+      android:text="@string/registration_forgotpassword"
+      android:textColor="@color/hint_tx"
+      android:textStyle="bold"
+      android:clickable="true"
+      />
+</RelativeLayout>
+
+
+      <TextView
+          android:id="@+id/login_new"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:padding="@dimen/d3"
+          android:layout_marginLeft="@dimen/d4"
+          android:layout_marginRight="@dimen/d4"
+          android:layout_marginTop="@dimen/d4"
+          android:background="@drawable/btn_green_selector"
+          android:gravity="center"
+          android:text="登 录"
+          android:textColor="@color/white"
+          android:textSize="18.0sp"
+          />
+    </LinearLayout>
+
+
+
+
+  </LinearLayout>
+  <TextView
+      android:id="@+id/tv_setip"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="@dimen/d4"
+      android:gravity="center"
+      android:text="设置服务器IP"
+      android:visibility="visible"
+      android:textColor="#70a8cc"
+      android:textSize="@dimen/sp_16" />
+  <TextView
+      android:id="@+id/register_new"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="@dimen/d4"
+      android:gravity="center"
+      android:text="注册/找回密码"
+      android:visibility="gone"
+      android:textColor="#70a8cc"
+      android:textSize="@dimen/sp_16"
+      />
+
+  <include
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:visibility="gone"
+      layout="@layout/friend_logining" />
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/header_ic_end_more_p" />
+    <item android:drawable="@drawable/header_ic_end_more_n" />
+</selector>
