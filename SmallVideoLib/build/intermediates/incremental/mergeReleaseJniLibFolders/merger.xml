@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\eroadsteam\androidclient\branch\ydx_securephone\SmallVideoLib\src\main\jniLibs"><file name="armeabi/libutility.so" path="D:\eroadsteam\androidclient\branch\ydx_securephone\SmallVideoLib\src\main\jniLibs\armeabi\libutility.so"/></source></dataSet><dataSet config="release"><source path="D:\eroadsteam\androidclient\branch\ydx_securephone\SmallVideoLib\src\release\jniLibs"/></dataSet></merger>
